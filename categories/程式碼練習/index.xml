@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程式碼練習 on Iris&#39;s Blog</title>
+    <link>https://iris0530.github.io/categories/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%B7%B4%E7%BF%92/</link>
+    <description>Recent content in 程式碼練習 on Iris&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 21 Dec 2021 20:35:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/categories/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%B7%B4%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章 - 第一次練習 Markdown 語法</title>
+      <link>https://iris0530.github.io/blog/markdown-test/</link>
+      <pubDate>Tue, 21 Dec 2021 20:35:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/markdown-test/</guid>
+      <description>Hello World
+我是 Iris
+一級標題 二級標題 六級標題 我是 Iris，這是我練習MarkDown語法的地方
+ Iris  Chen  是我     Hello   Hello  HAHAHA   你好   How are you?</description>
+    </item>
+    
+  </channel>
+</rss>

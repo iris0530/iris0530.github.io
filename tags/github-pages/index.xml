@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github pages on Iris&#39;s Blog</title>
+    <link>https://iris0530.github.io/tags/github-pages/</link>
+    <description>Recent content in github pages on Iris&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 21 Dec 2021 21:20:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第二篇文章 - 個人網站PO文練習</title>
+      <link>https://iris0530.github.io/blog/second-post/</link>
+      <pubDate>Tue, 21 Dec 2021 21:20:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/second-post/</guid>
+      <description>這是我的第二篇文章</description>
+    </item>
+    
+  </channel>
+</rss>

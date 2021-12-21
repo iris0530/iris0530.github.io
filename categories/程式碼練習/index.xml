@@ -6,7 +6,16 @@
     <description>Recent content in 程式碼練習 on Iris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 21 Dec 2021 20:35:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/categories/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%B7%B4%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 21:20:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/categories/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E7%B7%B4%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第二篇文章 - 個人網站PO文練習</title>
+      <link>https://iris0530.github.io/blog/second-post/</link>
+      <pubDate>Tue, 21 Dec 2021 21:20:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/second-post/</guid>
+      <description>這是我的第二篇文章</description>
+    </item>
+    
     <item>
       <title>第一篇文章 - 第一次練習 Markdown 語法</title>
       <link>https://iris0530.github.io/blog/markdown-test/</link>

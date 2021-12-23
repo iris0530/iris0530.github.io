@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on Iris&#39;s Blog</title>
+    <link>https://iris0530.github.io/tags/project/</link>
+    <description>Recent content in project on Iris&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 23 Dec 2021 19:00:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DAOBUNSO 倒幫手 - 第一個團體專案</title>
+      <link>https://iris0530.github.io/blog/first-project/</link>
+      <pubDate>Thu, 23 Dec 2021 19:00:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/first-project/</guid>
+      <description>專案時間：2021/08 - 2021/11 約 3 個月 專案參與：專案全程參與 專案人數：7人 / 擔任角色：組員 使用技術：資料庫系統MySQL；前端HTML、CSS、JavaScript、jQuery、RWD、Bootstrap、AJAX-Fetch API、Thymeleaf；後端隨著課程學習的進度不斷改進，由最開始的JSP/Servlet +JDBC，演進到Hibernate、Spring、Spring MVC，最終改用Spring Boot技術撰寫專案 使用工具：Eclipse、IntelliJ 專案環境：Server：Apache Tomcat、DB: MySQL 負責區域：初期前端畫面、前端購物車撰寫、註冊前後端撰寫、訂單總覽前後端撰寫、資料庫分析討論以及最後的專案整合  專案介紹 緣起： 『倒垃圾』為生活中的一大課題…不管是什麼身份，身為忙碌現代人的我們，『倒垃圾』已與我們的生活密不可分，但往往又不想老是追著垃圾車跑，或是挑房子時還得特地挑一個有垃圾集中場的地方…總會希望有人可以在自己沒有時間的時候也可以幫忙處理，所以我們的DAOBUNSO就誕生了！</description>
+    </item>
+    
+  </channel>
+</rss>

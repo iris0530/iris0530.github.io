@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Iris&#39;s Blog</title>
+    <link>https://iris0530.github.io/tags/java/</link>
+    <description>Recent content in Java on Iris&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 04 Jan 2022 19:50:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 個人筆記</title>
+      <link>https://iris0530.github.io/blog/java-note-1/</link>
+      <pubDate>Tue, 04 Jan 2022 19:50:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/java-note-1/</guid>
+      <description>JAVA  JAVA 是⼀種結構化的程式語言：1. 循序式（sequence） 2. 迴圈式（iteration） 3. 選擇式（selection）
+ JDK 軟體  Java Platform Standard Edition Development Kit 提供開發 Java 應⽤程式所需的⼯具  Java 程式的編譯與執⾏  Java 類別檔可以 跨平台(即跨作業系統) 執⾏  Java 執⾏環境  Java 執⾏環境( JRE, Java Runtime Environment ) 由兩部分組成：  Java虛擬機器( Java Virtual Machine, JVM ) Java應⽤程式介⾯( Java Application Programming Interface, Java API or Java Class Library )     JRE = JVM + Java API</description>
+    </item>
+    
+  </channel>
+</rss>

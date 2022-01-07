@@ -6,7 +6,16 @@
     <description>Recent content in 個人筆記 on Iris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 04 Jan 2022 19:50:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/categories/%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2022 16:25:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/categories/%E5%80%8B%E4%BA%BA%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 個人筆記 - 2</title>
+      <link>https://iris0530.github.io/blog/java-note-2/</link>
+      <pubDate>Fri, 07 Jan 2022 16:25:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/java-note-2/</guid>
+      <description>JAVA 寫程式的七個步驟  確定⽬標 規劃程式 撰寫程式 編譯程式 → 檢查語法是否正確 執⾏程式 測試與除錯 ⼤型程式的保存   符號說明： 「 = 」 → assignment ，指定運算⼦</description>
+    </item>
+    
     <item>
       <title>Java 個人筆記 - 1</title>
       <link>https://iris0530.github.io/blog/java-note-1/</link>

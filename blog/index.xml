@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Iris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 07 Jan 2022 16:25:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 17:57:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 個人筆記 - 3</title>
+      <link>https://iris0530.github.io/blog/java-note-3/</link>
+      <pubDate>Sun, 09 Jan 2022 17:57:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/java-note-3/</guid>
+      <description>JAVA Java 語⾔的基本元素 package (套件) 敘述  必須是原始程式內的 第⼀個敘述，此敘述的前⾯ 只能有空⽩字元與註解 是 Java 語⾔⽤來 區分同名類別的⼀種分辨機制 語法範例：  package ex01; package ex01.</description>
+    </item>
+    
     <item>
       <title>Java 個人筆記 - 2</title>
       <link>https://iris0530.github.io/blog/java-note-2/</link>

@@ -6,7 +6,16 @@
     <description>Recent content in notes on Iris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 09 Jan 2022 17:57:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 14:45:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 個人筆記 - 4</title>
+      <link>https://iris0530.github.io/blog/java-note-4/</link>
+      <pubDate>Fri, 14 Jan 2022 14:45:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/java-note-4/</guid>
+      <description>JAVA 整數型態  將常數指定給整數型態的變數時，不能超過所允許的範圍(值域範圍)   值域範圍：[-2^(n-1)] ~ 0 ~ [2^(n-1)-1] ※「0」在這裡算⼀個正整數</description>
+    </item>
+    
     <item>
       <title>Java 個人筆記 - 3</title>
       <link>https://iris0530.github.io/blog/java-note-3/</link>

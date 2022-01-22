@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>
+    
+    Java 個人筆記 - 7
+    
+  </title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Java 個人筆記 - Java 語⾔提供常⽤的⽅法 &amp; 語法結構說明 - 選擇式敘述 ( selection ) 結構、迴圈式敘述 ( iteration ) 結構">
+  <meta name="author" content="Iris">
+  <meta name="generator" content="Hugo 0.90.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://iris0530.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://iris0530.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://iris0530.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://iris0530.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://iris0530.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://iris0530.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://iris0530.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-215678473-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://iris0530.github.io"><img class="img-fluid"
+          src="https://iris0530.github.io/images/four.png" alt="Iris&#39;s Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/iris0530"><i class="ti-github"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://iris0530.github.io"><img class="img-fluid"
+            src="https://iris0530.github.io/images/four.png" alt="Iris&#39;s Blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://iris0530.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://iris0530.github.io/">Home</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://iris0530.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e5%80%8b%e4%ba%ba%e7%ad%86%e8%a8%98"
+          class="text-primary">個人筆記</a>
+        
+        <h2>Java 個人筆記 - 7</h2>
+        <div class="mb-3 post-meta">
+          <span>By Iris</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>22 January 2022</span>
+          
+        </div>
+        
+        <img src="https://iris0530.github.io/images/post/java-logo.jpg" class="img-fluid w-100 mb-4" alt="Java 個人筆記 - 7">
+        
+        <div class="content mb-5">
+          <h1 id="java">JAVA</h1>
+<h2 id="常的庫存法--java-語提供的法-">常⽤的庫存⽅法 ( Java 語⾔提供的⽅法 )</h2>
+<h3 id="scanner-類別">Scanner 類別</h3>
+<ul>
+<li>由 <strong>「 鍵盤 」</strong> 讀⼊資料</li>
+<li>不是 Java 內建的類別，所以需要使用時要加⼊ <strong>「 import java.util.Scanner;」</strong></li>
+<li>相關語法：</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#666">(</span>1<span style="color:#666">)</span>
+<span style="">–</span>hasNextInt<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 如果輸⼊緩衝區內有⼀個可解釋為整數的記號
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="">–</span>nextInt<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 讀取輸⼊緩衝區內的記號並將它轉換為整數
+</span><span style="color:#60a0b0;font-style:italic"></span>
+<span style="color:#666">(</span>2<span style="color:#666">)</span>
+<span style="">–</span>hasNextDouble<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 如果輸⼊緩衝區內有⼀個可解釋為浮點數的記號
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="">–</span>nextDouble<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 讀取輸⼊緩衝區內的記號並將它轉換為浮點數
+</span><span style="color:#60a0b0;font-style:italic"></span>
+<span style="color:#666">(</span>3<span style="color:#666">)</span>
+<span style="">–</span>hasNextBoolean<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 如果輸⼊緩衝區內有⼀個可解釋為布林值的記號
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="">–</span>nextBoolean<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 讀取輸⼊緩衝區內的記號並將它轉換為布林值
+</span><span style="color:#60a0b0;font-style:italic"></span>
+<span style="color:#666">(</span>4<span style="color:#666">)</span>
+<span style="">–</span>hasNext<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 如果輸⼊緩衝區內有⼀個記號
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="">–</span>next<span style="color:#666">()</span> <span style="color:#60a0b0;font-style:italic">// 讀取輸⼊緩衝區內的記號並將它轉換為字串
+</span><span style="color:#60a0b0;font-style:italic"></span>
+範例<span style="">：</span>
+System<span style="color:#666">.</span><span style="color:#4070a0">out</span><span style="color:#666">.</span><span style="color:#4070a0">println</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;What&#39;s your name?&#34;</span><span style="color:#666">);</span>
+<span style="color:#007020;font-weight:bold">if</span><span style="color:#666">(</span>scan<span style="color:#666">.</span><span style="color:#4070a0">hasNext</span><span style="color:#666">()){</span>
+str <span style="color:#666">=</span> scan<span style="color:#666">.</span><span style="color:#4070a0">next</span><span style="color:#666">();</span>
+<span style="color:#666">}</span>
+</code></pre></div><blockquote>
+<p>有緩衝區：需要按 enter 鍵代表輸⼊的動作</p>
+</blockquote>
+<blockquote>
+<p>has 系列代表的是：可以先看看下⼀個輸⼊的值是不是需要的資料型態</p>
+</blockquote>
+<h2 id="類別宣告變數--物件導向">類別宣告變數 → 物件導向</h2>
+<ul>
+<li>程式設計⽅法
+<ul>
+<li>結構化
+<ul>
+<li>循序式 ( sequence )</li>
+<li>迴圈式 ( iteration )</li>
+<li>選擇式 ( selection )</li>
+</ul>
+</li>
+<li>物件導向
+<ul>
+<li>⼀個類別 ( class ) 包含屬性、⽅法和建構⼦</li>
+</ul>
+</li>
+<li>泛型</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>資料 + 演算法 → 程式</p>
+</blockquote>
+<ul>
+<li>演算法：程式執⾏的先後順序</li>
+<li><strong>結構化設計⽅法</strong>，在意的是 「 演算法 」</li>
+<li><strong>物件導向設計⽅法</strong>，在意的是 「 資料 」</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">物件導向定義物件<span style="">：</span>
+類別名稱 變數名稱 <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> 建構<span style="">⼦</span><span style="color:#666">;</span> <span style="color:#60a0b0;font-style:italic">// 類別名稱和建構⼦同名
+</span><span style="color:#60a0b0;font-style:italic"></span>
+範例<span style="">：</span>
+String str <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> String<span style="color:#666">(</span><span style="">“</span>ABC<span style="">”</span><span style="color:#666">);</span> <span style="color:#60a0b0;font-style:italic">// 也可寫成 String str = “ABC”;
+</span></code></pre></div><p><img src="/images/post/note-7.png" alt=""></p>
+<p><img src="/images/post/note-7-2.png" alt=""></p>
+<h2 id="敘述-statements">敘述 Statements</h2>
+<ul>
+<li>由 <strong>運算⼦、運算元及關鍵字</strong>所組成，可完成特定⼯作</li>
+<li><em>流程控制敘述</em> 可以控制程式的執⾏</li>
+<li>敘述⼀定要以 <strong>分號</strong>做為結束 ( if else 除外 )</li>
+<li>敘述⼀定要出現在⼀對⼤括弧 ( 稱為區塊 ) 之內</li>
+</ul>
+<h2 id="區塊-block">區塊 block</h2>
+<ul>
+<li>由 <strong>⼀對⼤括弧所包起的連續敘述</strong>，它們在邏輯上是屬於⼀體的，必須⼀起被執⾏</li>
+<li>每對⼤括弧都標⽰出⼀個範圍，<strong>在該範圍內定義的變數只在其內有效</strong></li>
+</ul>
+<blockquote>
+<p>( 區塊內部的變數，外部不會認得；但外⾯的變數，內部會認得 )</p>
+</blockquote>
+<ul>
+<li>每個區塊皆可以定義變數，但是內層區塊所定義的區域變數不能與外層區塊已定義的區域變數同名 → <strong>不同內部的變數名稱可以相同；但內部的變數名稱不可與外部的相同</strong></li>
+<li>⼤括弧可以出現在另⼀對⼤括弧之內，構成 <strong>巢狀區塊 ( nested loop )</strong></li>
+</ul>
+<h2 id="選擇式敘述--selection--結構">選擇式敘述 ( selection ) 結構</h2>
+<h3 id="if-else敘述">if else敘述</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#666">(</span>1<span style="color:#666">)</span> <span style="color:#007020;font-weight:bold">if</span><span style="color:#666">...</span>
+<span style="color:#007020;font-weight:bold">if</span><span style="color:#666">(</span>條件判斷<span style="color:#666">){</span>         <span style="color:#60a0b0;font-style:italic">// 條件判斷，如果為 true 就執⾏⼤括號；反之跳出區塊
+</span><span style="color:#60a0b0;font-style:italic">// 判斷為 true 時執⾏ // 執⾏次數只有 0 次和 1 次 的分別
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">}</span>
+
+<span style="color:#666">(</span>2<span style="color:#666">)</span> <span style="color:#007020;font-weight:bold">if</span><span style="color:#666">...</span><span style="color:#4070a0">else</span><span style="color:#666">...</span>
+<span style="color:#007020;font-weight:bold">if</span><span style="color:#666">(</span>條件判斷<span style="color:#666">){</span>         <span style="color:#60a0b0;font-style:italic">// 條件判斷，為 true 就執⾏ if ⼤括號；為 false 就執⾏ else ⼤括號
+</span><span style="color:#60a0b0;font-style:italic">// 判斷為 true 時執⾏  // 2 選 1
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">}</span><span style="color:#007020;font-weight:bold">else</span><span style="color:#666">{</span>
+<span style="color:#60a0b0;font-style:italic">// 判斷為 false 時執⾏
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">}</span>
+
+<span style="color:#666">(</span>3<span style="color:#666">)</span> <span style="color:#007020;font-weight:bold">if</span><span style="color:#666">...</span><span style="color:#4070a0">else</span> <span style="color:#007020;font-weight:bold">if</span><span style="color:#666">...</span><span style="color:#4070a0">else</span>
+<span style="color:#007020;font-weight:bold">if</span><span style="color:#666">(</span>條件判斷<span style="color:#666">){</span>         <span style="color:#60a0b0;font-style:italic">// 條件判斷，為 true 就執⾏ if ⼤括號
+</span><span style="color:#60a0b0;font-style:italic">// 判斷為 tru e時執⾏  // 為 false 就跳到 else if ⼤括號，再做 else if 的條件判斷
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">}</span><span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span><span style="color:#666">(</span>條件判斷<span style="color:#666">){</span>   <span style="color:#60a0b0;font-style:italic">// 為 true 就執⾏ else if ⼤括號；為 false 就執⾏ else ⼤括號
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">...</span>
+<span style="color:#666">}</span><span style="color:#007020;font-weight:bold">else</span><span style="color:#666">{</span>
+  <span style="color:#666">...</span>
+<span style="color:#666">}</span>
+</code></pre></div><blockquote>
+<p>條件必須要以 <strong>⼀對⼩括弧</strong>包起</p>
+</blockquote>
+<h3 id="switch-敘述--可搭配-break-使-">switch 敘述 ( 可搭配 break 使⽤ )</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#007020;font-weight:bold">switch</span><span style="color:#666">(</span>expression條件判斷<span style="color:#666">){</span>
+<span style="color:#007020;font-weight:bold">case</span> 1 <span style="color:#666">:</span>
+<span style="">…</span>statement<span style="color:#666">;</span>
+<span style="color:#666">(</span><span style="color:#007020;font-weight:bold">break</span><span style="color:#666">;</span> <span style="">→</span>執<span style="">⾏</span>完跳出迴圈<span style="color:#666">)</span> <span style="color:#60a0b0;font-style:italic">// 可加可不加
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#007020;font-weight:bold">case</span> 2 <span style="color:#666">:</span>
+<span style="">…</span>statement<span style="color:#666">;</span>
+<span style="color:#007020;font-weight:bold">break</span><span style="color:#666">;</span>
+<span style="color:#007020;font-weight:bold">case</span> 3 <span style="color:#666">:</span>
+<span style="">…</span>statement<span style="color:#666">;</span>
+<span style="color:#666">(</span><span style="color:#007020;font-weight:bold">break</span><span style="color:#666">;)</span>
+<span style="color:#666">.</span>
+<span style="color:#666">.</span>
+<span style="color:#666">.</span>
+<span style="color:#002070;font-weight:bold">defalut:</span> <span style="color:#60a0b0;font-style:italic">// 所有 case 以外的狀況
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="">…</span>statement<span style="color:#666">;</span> <span style="color:#60a0b0;font-style:italic">// defalut: 有沒有敘述都可以
+</span><span style="color:#60a0b0;font-style:italic"></span><span style="color:#666">(</span><span style="color:#007020;font-weight:bold">break</span><span style="color:#666">;)</span>
+<span style="color:#666">}</span>
+</code></pre></div><p><img src="/images/post/note-7-3.png" alt=""></p>
+<p><img src="/images/post/note-7-4.png" alt=""></p>
+<blockquote>
+<p>精神關鍵：把 <strong>⼀組相關的資料 ( 要同時處理的 )</strong> ⼀起處理</p>
+</blockquote>
+<blockquote>
+<p>expression ( 條件判斷 ) 的值應為 <strong>byte、short、char、int</strong> 中的⼀種</p>
+</blockquote>
+<h2 id="迴圈式敘述--iteration--結構">迴圈式敘述 ( iteration ) 結構</h2>
+<ul>
+<li>對於⼀組 <strong>需要進⾏相同運算的資料</strong>就需要以迴圈來處理</li>
+</ul>
+<h3 id="while-迴圈">while 迴圈</h3>
+<p><img src="/images/post/note-7-5.png" alt=""></p>
+<ul>
+<li>
+<p>步驟：</p>
+<ul>
+<li>判斷條件的真假，若為假，則停⽌ while 敘述的執⾏；若為真，則執⾏迴圈本體內的敘述⼀次</li>
+<li>重複執⾏步驟⼀直到條件為假</li>
+</ul>
+</li>
+<li>
+<p>範例：</p>
+</li>
+</ul>
+<p><img src="/images/post/note-7-6.png" alt=""></p>
+<h3 id="for-迴圈">for 迴圈</h3>
+<p><img src="/images/post/note-7-7.png" alt=""></p>
+<ul>
+<li>
+<p>步驟：</p>
+<ul>
+<li>執⾏「 初值設定 」內的敘述⼀次</li>
+<li>條件判斷：若為假，則停⽌ for 敘述的執⾏；若為真，則執⾏「 迴圈本體 」內的敘述⼀次</li>
+<li>執⾏「 條件更新 」內的敘述⼀次</li>
+<li>執⾏步驟 2</li>
+</ul>
+</li>
+<li>
+<p>範例：</p>
+</li>
+</ul>
+<p><img src="/images/post/note-7-8.png" alt=""></p>
+<blockquote>
+<p>for 迴圈的 <strong>「初值 &amp; 判斷式 &amp; 條件更新」可以寫在 block 內</strong> ，但是 <strong>兩個分號⼀定要有！！！</strong></p>
+</blockquote>
+<p><img src="/images/post/note-7-9.png" alt=""></p>
+<h3 id="do-while-迴圈">do while 迴圈</h3>
+<p><img src="/images/post/note-7-10.png" alt=""></p>
+<ul>
+<li>
+<p>步驟：</p>
+<ul>
+<li>執⾏ do-while 敘述 body 內的敘述⼀次</li>
+<li>條件判斷：若為假，則停⽌ do-while 敘述的執⾏；若為真，則執⾏ do-while 敘述body內的敘述⼀次 → 條件更新也在敘述 body 裡</li>
+<li>執⾏步驟 2</li>
+</ul>
+</li>
+<li>
+<p>範例：</p>
+</li>
+</ul>
+<p><img src="/images/post/note-7-11.png" alt=""></p>
+
+        </div>
+
+        
+        <script src="https://utteranc.es/client.js"
+        repo="iris0530/iris0530.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://iris0530.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://iris0530.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://iris0530.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://iris0530.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://iris0530.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://iris0530.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://iris0530.github.io/plugins/search/mark.js"></script>
+
+<script src="https://iris0530.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://iris0530.github.io/js/script.min.js"></script>
+
+
+
+</body>
+</html>

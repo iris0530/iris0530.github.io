@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Iris&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 22 Jan 2022 21:24:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jan 2022 15:34:00 +0800</lastBuildDate><atom:link href="https://iris0530.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 個人筆記 - 8</title>
+      <link>https://iris0530.github.io/blog/java-note-8/</link>
+      <pubDate>Sun, 23 Jan 2022 15:34:00 +0800</pubDate>
+      
+      <guid>https://iris0530.github.io/blog/java-note-8/</guid>
+      <description>JAVA 迴圈式敘述 ( iteration ) 結構 迴圈的⼩幫⼿ break; vs. continue;  break;  ⽴刻停⽌整個迴圈的執⾏，然後執⾏迴圈之後的敘述 直接跳離迴圈 必須放在區塊內   continue;  對於「for 迴圈」：先執⾏條件更新的部份，接著判斷條件以便決定是否要繼續執⾏該迴圈 對於「while、do-while 迴圈」：直接判斷條件以便決定是否要繼續執⾏該迴圈 必須放在迴圈之內，只有針對迴圈有⽤ 回到包住的那個迴圈的判斷式    ⾃訂義常數 語法： final 資料型態 常數名稱 = 值; // 定義常數名稱都⽤⼤寫  範例：  巢狀迴圈 nested loop  迴圈之內有迴圈，通常都是 for 迴圈 → for 迴圈裡⾯有 for 迴圈 範例：   經典範例：九九乘法表  for(int x = 1; x &amp;lt;= 9; x++) { for(int y = 1; y &amp;lt;= 9; y++) { System.</description>
+    </item>
+    
     <item>
       <title>Java 個人筆記 - 7</title>
       <link>https://iris0530.github.io/blog/java-note-7/</link>
